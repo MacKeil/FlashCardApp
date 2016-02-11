@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FlashCardApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_card">Card</string>
+    <string name="correct">Correct</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="Title">FlashDance: tango with some flashcards</string>
+    <string name="addActivitystr">+ Add a new collection</string>
+    <string name="title_activity_collection_view">CollectionView</string>
+
+</resources>
