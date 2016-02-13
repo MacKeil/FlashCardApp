@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file:///var/host/media/removable/SD Card/JavaPrograms/androidProjects/FlashCardapp/FlashCardapp.iml" filepath="/var/host/media/removable/SD Card/JavaPrograms/androidProjects/FlashCardapp/FlashCardapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlashCardApp.iml" filepath="$PROJECT_DIR$/FlashCardApp.iml" />
       <module fileurl="file:///var/host/media/removable/SD Card/JavaPrograms/androidProjects/FlashCardApp/app/app.iml" filepath="/var/host/media/removable/SD Card/JavaPrograms/androidProjects/FlashCardApp/app/app.iml" />
     </modules>
   </component>

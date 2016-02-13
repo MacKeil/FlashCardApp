@@ -9,8 +9,8 @@
         <option name="gradleJvm" value="1.8" />
         <option name="modules">
           <set>
-            <option value="/var/host/media/removable/SD Card/JavaPrograms/androidProjects/FlashCardapp" />
-            <option value="/var/host/media/removable/SD Card/JavaPrograms/androidProjects/FlashCardapp/app" />
+            <option value="/var/host/media/removable/SD Card/JavaPrograms/androidProjects/FlashCardApp" />
+            <option value="/var/host/media/removable/SD Card/JavaPrograms/androidProjects/FlashCardApp/app" />
           </set>
         </option>
       </GradleProjectSettings>
