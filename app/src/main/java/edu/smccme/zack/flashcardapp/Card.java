@@ -14,8 +14,9 @@ import android.widget.Toast;
 public class Card extends AppCompatActivity {
 
     private boolean gotCorrect = false;
-    ImageButton answer1;
-    ImageButton answer2;
+    ImageButton m_answer1;
+    ImageButton m_answer2;
+    Card_Indiv m_thisCard;
 
 
     @Override
@@ -33,6 +34,7 @@ public class Card extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        m_thisCard = new Card_Indiv();
     }
 
     public boolean getCorrect(){

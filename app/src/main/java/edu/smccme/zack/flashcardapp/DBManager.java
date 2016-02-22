@@ -38,6 +38,9 @@ public class DBManager {
     public static final String m_CARDS_ANSWER_TWO = "answer two location";
     public static final int m_CARDS_ANSWER_TWO_COL = 4;
 
+    public static final String m_CARDS_WHICHISRIGHT = "which one is right";
+    public static final int m_CARDS_WHICHISRIGHT_COL = 5;
+
     //CREATE and DROP TABLE statements
     public static final String CREATE_COLLECTIONS_TABLE = "CREATE TABLE " + m_COLLECTIONS_TABLE + " ("
             + m_COLLECTIONS_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
@@ -49,7 +52,8 @@ public class DBManager {
                     m_CARDS_COLLECTIONS_ID + " INTEGER NOT NULL, " +
                     m_CARDS_QUESTION + " TEXT NOT NULL, " +
                     m_CARDS_ANSWER_ONE + " TEXT NOT NULL, "+
-                    m_CARDS_ANSWER_TWO + " TEXT NOT NULL);";
+                    m_CARDS_ANSWER_TWO + " TEXT NOT NULL, "+
+                    m_CARDS_WHICHISRIGHT + " INTEGER NOT NULL);";
 
     public static final String DROP_COLLECTIONS_TABLE =
             "DROP TABLE IF EXISTS " + m_COLLECTIONS_TABLE;

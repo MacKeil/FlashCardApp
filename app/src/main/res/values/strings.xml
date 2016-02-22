@@ -7,5 +7,6 @@
     <string name="Title">FlashDance: tango with some flashcards</string>
     <string name="addActivitystr">+ Add a new collection</string>
     <string name="title_activity_collection_view">CollectionView</string>
+    <string name="title_activity_add_collection">AddCollection</string>
 
 </resources>

@@ -1,5 +1,6 @@
 package edu.smccme.zack.flashcardapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -8,8 +9,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ListView;
 
 public class StartScreen extends AppCompatActivity {
+
+    private ListView Options;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +30,7 @@ public class StartScreen extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        Options = (ListView) findViewById(R.id.collections);
     }
 
     @Override
@@ -48,5 +53,10 @@ public class StartScreen extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void addNewCollection(View view){
+        Intent intent = new Intent(StartScreen.this, AddCollection.class);
+        startActivity(intent);
     }
 }
