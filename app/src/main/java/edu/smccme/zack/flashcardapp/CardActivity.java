@@ -11,7 +11,7 @@ import android.widget.ImageButton;
 import android.widget.Toast;
 
 
-public class Card extends AppCompatActivity {
+public class CardActivity extends AppCompatActivity {
 
     private boolean gotCorrect = false;
     ImageButton m_answer1;
