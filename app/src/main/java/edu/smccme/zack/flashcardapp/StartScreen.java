@@ -51,6 +51,9 @@ public class StartScreen extends AppCompatActivity {
         if (id == R.id.action_settings) {
             return true;
         }
+        else if(id == R.id.addOption){
+            startActivity(new Intent(getApplicationContext(), AddCollection.class));
+        }
 
         return super.onOptionsItemSelected(item);
     }

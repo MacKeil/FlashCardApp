@@ -8,5 +8,6 @@
     <string name="addActivitystr">+ Add a new collection</string>
     <string name="title_activity_collection_view">CollectionView</string>
     <string name="title_activity_add_collection">AddCollection</string>
+    <string name="addOption">+</string>
 
 </resources>
